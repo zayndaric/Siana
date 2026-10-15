@@ -1,0 +1,1273 @@
+
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>صيانة جدة | المركز المعتمد لصيانة الغسالات الأوتوماتيكية والثلاجات VIP</title>
+  <meta name="description" content="المركز المعتمد لصيانة الغسالات الأوتوماتيكية والثلاجات المنزلية في جدة. كشف فني منزلي فوري، مهندسون معتمدون، وقطع غيار أصلية بكفاءة عالية."/>
+  <link rel="icon" type="image/png" href="assets/images/favicon.png"/>
+  <link rel="apple-touch-icon" href="assets/images/favicon.png"/>
+  <meta property="og:title" content="صيانة جدة | المركز المعتمد لصيانة الغسالات الأوتوماتيكية والثلاجات VIP"/>
+  <meta property="og:description" content="المركز المعتمد لصيانة الغسالات الأوتوماتيكية والثلاجات المنزلية في جدة. كشف فني منزلي فوري، مهندسون معتمدون، وقطع غيار أصلية بكفاءة عالية."/>
+  <meta property="og:image" content="assets/images/header-banner.jpg"/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Manrope:wght@200..800&family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+
+  <style>
+    @layer base {
+      html { scroll-behavior: smooth; }
+      body {
+        font-family: 'Tajawal', 'DM Sans', sans-serif;
+        background-color: #FFFFFF;
+        color: #0F172A;
+        overflow-x: hidden;
+      }
+    }
+
+    /* ================= KEYFRAME ANIMATIONS ================= */
+    @keyframes kenBurnsPanoramic {
+      0% { transform: scale(1) translate(0, 0); }
+      50% { transform: scale(1.04) translate(-1%, -0.5%); }
+      100% { transform: scale(1) translate(0, 0); }
+    }
+
+    @keyframes floatSlow {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-7px); }
+    }
+
+    @keyframes floatDelay {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(7px); }
+    }
+
+    @keyframes radarPing {
+      0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(2, 132, 199, 0.7); }
+      70% { transform: scale(1); box-shadow: 0 0 0 16px rgba(2, 132, 199, 0); }
+      100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(2, 132, 199, 0); }
+    }
+
+    @keyframes radarPingGreen {
+      0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(22, 163, 74, 0.75); }
+      70% { transform: scale(1); box-shadow: 0 0 0 18px rgba(22, 163, 74, 0); }
+      100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(22, 163, 74, 0); }
+    }
+
+    @keyframes shimmerSweep {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+
+    @keyframes marqueeScroll {
+      0% { transform: translateX(0%); }
+      100% { transform: translateX(50%); }
+    }
+
+    @keyframes starTwinkle {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.6; transform: scale(0.85); }
+    }
+
+    @keyframes glassGlow {
+      0%, 100% { border-color: rgba(255, 255, 255, 0.6); box-shadow: 0 8px 32px 0 rgba(2, 132, 199, 0.08); }
+      50% { border-color: rgba(56, 189, 248, 0.5); box-shadow: 0 8px 32px 0 rgba(2, 132, 199, 0.18); }
+    }
+
+    /* Animation utility classes */
+    .animate-panoramic {
+      animation: kenBurnsPanoramic 22s ease-in-out infinite;
+      transform-origin: center center;
+    }
+    .animate-float {
+      animation: floatSlow 4s ease-in-out infinite;
+    }
+    .animate-float-delay {
+      animation: floatDelay 4.5s ease-in-out infinite 0.5s;
+    }
+    .animate-radar-blue {
+      animation: radarPing 2.5s infinite;
+    }
+    .animate-radar-green {
+      animation: radarPingGreen 2.2s infinite;
+    }
+    .animate-twinkle {
+      animation: starTwinkle 2.5s ease-in-out infinite;
+    }
+    .animate-glass-glow {
+      animation: glassGlow 5s ease-in-out infinite;
+    }
+
+    /* Glassmorphism Classes */
+    .glass-nav {
+      background: rgba(255, 255, 255, 0.72);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+      box-shadow: 0 4px 30px rgba(16, 27, 93, 0.04);
+    }
+
+    .glass-card-light {
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.9);
+      box-shadow: 0 20px 40px -15px rgba(16, 27, 93, 0.08);
+    }
+
+    .glass-card-hero {
+      background: rgba(255, 255, 255, 0.88);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1.5px solid rgba(255, 255, 255, 0.95);
+      box-shadow: 0 25px 50px -12px rgba(16, 27, 93, 0.15);
+    }
+
+    .glass-card-dark {
+      background: rgba(16, 27, 93, 0.82);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.35);
+    }
+
+    /* Interactive Hover Transitions */
+    .card-hover-3d {
+      transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .card-hover-3d:hover {
+      transform: translateY(-8px) scale(1.01);
+      box-shadow: 0 25px 45px -10px rgba(2, 132, 199, 0.18);
+      border-color: #38BDF8;
+    }
+
+    .btn-shine {
+      position: relative;
+      overflow: hidden;
+    }
+    .btn-shine::after {
+      content: '';
+      position: absolute;
+      top: -50%;
+      right: -50%;
+      bottom: -50%;
+      left: -50%;
+      background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.35), transparent);
+      transform: rotate(35deg) translate(-100%, 0);
+      transition: transform 0.75s ease;
+    }
+    .btn-shine:hover::after {
+      transform: rotate(35deg) translate(100%, 0);
+    }
+
+    /* Continuous Marquee Container */
+    .marquee-track {
+      display: flex;
+      width: 200%;
+      animation: marqueeScroll 25s linear infinite;
+    }
+    .marquee-track:hover {
+      animation-play-state: paused;
+    }
+
+    /* Scroll animations */
+    .reveal-on-scroll {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .reveal-on-scroll.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              navy: "#101B5D",
+              navyDark: "#0A1038",
+              blue: "#0284C7",
+              sky: "#38BDF8",
+              light: "#E0F2FE",
+              ice: "#F0F7FF"
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-white text-slate-800 antialiased selection:bg-sky-100 selection:text-[#101B5D] min-h-screen">
+
+
+<!-- ================= TOP EMERGENCY ANNOUNCEMENT TICKER ================= -->
+<div class="bg-gradient-to-r from-[#101B5D] via-[#0284C7] to-[#101B5D] text-white py-1.5 px-4 text-xs font-medium border-b border-white/10 z-50 relative">
+  <div class="max-w-7xl mx-auto flex items-center justify-between gap-4">
+    <div class="flex items-center gap-2 overflow-hidden text-ellipsis whitespace-nowrap">
+      <span class="relative flex h-2.5 w-2.5 shrink-0">
+        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+        <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-400"></span>
+      </span>
+      <span class="font-bold text-sky-200">مناوبون الآن:</span>
+      <span class="text-white/90">فريق صيانة أجهزة جدة متواجد ميدانياً في كافة الأحياء (الروضة، الشاطئ، السلامة، الصفا، أبحر، السامر)</span>
+    </div>
+    <div class="hidden md:flex items-center gap-4 shrink-0 font-bold text-sky-100">
+      <span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm text-emerald-400">timer</span> استجابة خلال 20 دقيقة</span>
+      <span class="text-white/40">•</span>
+      <a href="tel:+966552017263" class="hover:text-white transition-colors dir-ltr font-mono">+966 55 201 7263</a>
+    </div>
+  </div>
+</div>
+
+<!-- ================= TRANSLUCENT LIGHT GLASS SHADE NAVBAR ================= -->
+<header class="fixed top-8 left-0 right-0 z-40 glass-nav transition-all duration-300" id="mainNavbar">
+  <div class="h-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 flex items-center justify-between gap-4">
+    <!-- Brand Logo with animated glow -->
+    <div class="flex items-center gap-6">
+      <a class="flex items-center gap-3 group" href="index.html">
+        <div class="w-12 h-12 rounded-2xl bg-white/95 p-1 flex items-center justify-center shadow-[0_8px_20px_rgba(16,27,93,0.12)] border border-sky-100/80 overflow-hidden shrink-0 group-hover:scale-105 group-hover:rotate-1 transition-all duration-300">
+          <img src="assets/images/logo.jpg" alt="صيانة جدة" class="w-full h-full object-contain">
+        </div>
+        <div class="flex flex-col">
+          <span class="font-black text-xl text-[#101B5D] tracking-tight leading-none group-hover:text-[#0284C7] transition-colors">صيانة جدة</span>
+          <span class="text-[11px] text-[#0284C7] tracking-wider mt-1 font-extrabold uppercase">SIANA JEDDAH VIP</span>
+        </div>
+      </a>
+      
+      <!-- Desktop Navigation Links (Translucent Glass Pills) -->
+      <nav class="hidden xl:flex items-center gap-1.5 text-sm font-semibold">
+        <a class="text-[#0284C7] bg-white/80 font-bold border border-sky-200/80 shadow-sm px-4 py-2 rounded-xl transition-all duration-200" href="index.html">الرئيسية</a>
+        <a class="text-slate-700 hover:text-[#101B5D] hover:bg-white/60 px-4 py-2 rounded-xl transition-all duration-200" href="washing-machines.html">صيانة الغسالات</a>
+        <a class="text-slate-700 hover:text-[#101B5D] hover:bg-white/60 px-4 py-2 rounded-xl transition-all duration-200" href="refrigerators.html">صيانة الثلاجات</a>
+        <a class="text-slate-700 hover:text-[#101B5D] hover:bg-white/60 px-4 py-2 rounded-xl transition-all duration-200" href="index.html#about">من نحن</a>
+        <a class="text-slate-700 hover:text-[#101B5D] hover:bg-white/60 px-4 py-2 rounded-xl transition-all duration-200" href="#faq">الأسئلة الشائعة</a>
+        <a class="text-slate-700 hover:text-[#101B5D] hover:bg-white/60 px-4 py-2 rounded-xl transition-all duration-200" href="contact.html">اتصل بنا</a>
+      </nav>
+    </div>
+
+    <!-- Actions & Phone & Mobile Menu Button -->
+    <div class="flex items-center gap-3 sm:gap-4">
+      <div class="hidden md:flex flex-col items-end pl-2">
+        <span class="text-[11px] text-slate-500 font-bold flex items-center gap-1">
+          <span class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+          فني صيانة متاح للاتصال
+        </span>
+        <a class="text-sm text-[#0284C7] font-black tracking-widest dir-ltr hover:text-[#101B5D] transition-colors" dir="ltr" href="tel:+966552017263">+966 55 201 7263</a>
+      </div>
+
+      <!-- Emergency Call Button with Glass Shade -->
+      <a class="hidden sm:inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white/85 text-[#101B5D] hover:text-[#0284C7] hover:bg-white transition-all shadow-sm border border-sky-200/70 font-bold text-sm btn-shine card-hover-3d" href="tel:+966552017263">
+        <span class="material-symbols-outlined text-lg text-[#0284C7]">call</span>
+        <span>اتصال فوري</span>
+      </a>
+
+      <!-- WhatsApp Booking with Glowing Radar Animation -->
+      <a class="inline-flex items-center gap-2 px-4 sm:px-5 py-2.5 rounded-xl bg-gradient-to-r from-[#16A34A] to-[#22C55E] text-white font-extrabold text-sm tracking-wide shadow-[0_4px_20px_rgba(22,163,74,0.35)] hover:brightness-110 active:scale-95 transition-all btn-shine animate-radar-green" href="https://wa.me/966552017263?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%B7%D9%84%D8%A8%20%D8%AE%D8%AF%D9%85%D8%A9%20%D8%B5%D9%8A%D8%A7%D9%86%D8%A9%20%D9%81%D9%88%D8%B1%D9%8A%D8%A9%20%D9%81%D9%8A%20%D8%AC%D8%AF%D8%A9" rel="noopener noreferrer" target="_blank">
+        <span class="material-symbols-outlined text-lg">chat</span>
+        <span class="hidden sm:inline">احجز واتساب</span>
+        <span class="sm:hidden">واتساب</span>
+      </a>
+
+      <!-- Mobile Menu Toggle Button -->
+      <button id="mobileMenuBtn" onclick="toggleMobileMenu()" class="xl:hidden flex items-center justify-center w-11 h-11 rounded-xl bg-white/80 text-[#101B5D] hover:text-[#0284C7] border border-sky-200/80 shadow-sm transition-colors" aria-label="القائمة">
+        <span class="material-symbols-outlined text-2xl" id="menuIcon">menu</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Drawer Menu in Glass Light Theme -->
+  <div id="mobileDrawer" class="hidden xl:hidden bg-white/95 backdrop-blur-2xl border-b border-sky-100 px-6 py-6 space-y-4 shadow-2xl transition-all duration-300">
+    <div class="flex flex-col space-y-2">
+      <a class="text-[#0284C7] bg-white/80 font-bold border border-sky-200/80 shadow-sm px-4 py-3 rounded-xl text-sm font-bold transition-colors flex items-center justify-between" href="index.html">
+        <span>الرئيسية</span>
+        <span class="material-symbols-outlined text-sm">home</span>
+      </a>
+      <a class="text-slate-800 hover:bg-sky-50 px-4 py-3 rounded-xl text-sm font-bold transition-colors flex items-center justify-between" href="washing-machines.html">
+        <span>صيانة الغسالات الأوتوماتيكية</span>
+        <span class="material-symbols-outlined text-sm">local_laundry_service</span>
+      </a>
+      <a class="text-slate-800 hover:bg-sky-50 px-4 py-3 rounded-xl text-sm font-bold transition-colors flex items-center justify-between" href="refrigerators.html">
+        <span>صيانة الثلاجات والفريزرات</span>
+        <span class="material-symbols-outlined text-sm">kitchen</span>
+      </a>
+      <a class="px-4 py-3 rounded-xl text-sm font-bold text-slate-800 hover:bg-sky-50 transition-colors flex items-center justify-between" href="index.html#about" onclick="toggleMobileMenu()">
+        <span>من نحن وقيمنا</span>
+        <span class="material-symbols-outlined text-sm">verified</span>
+      </a>
+      <a class="px-4 py-3 rounded-xl text-sm font-bold text-slate-800 hover:bg-sky-50 transition-colors flex items-center justify-between" href="#faq" onclick="toggleMobileMenu()">
+        <span>الأسئلة الشائعة</span>
+        <span class="material-symbols-outlined text-sm">help</span>
+      </a>
+      <a class="text-slate-800 hover:bg-sky-50 px-4 py-3 rounded-xl text-sm font-bold transition-colors flex items-center justify-between" href="contact.html">
+        <span>اتصل بنا وحجز موعد</span>
+        <span class="material-symbols-outlined text-sm">contact_phone</span>
+      </a>
+    </div>
+    
+    <div class="pt-4 border-t border-sky-100/80 flex flex-col gap-3">
+      <a class="flex items-center justify-center gap-2 py-3.5 rounded-xl bg-sky-50/90 text-[#101B5D] font-bold text-sm border border-sky-200" href="tel:+966552017263">
+        <span class="material-symbols-outlined text-[#0284C7]">call</span>
+        <span dir="ltr">+966 55 201 7263</span>
+      </a>
+      <a class="flex items-center justify-center gap-2 py-3.5 rounded-xl bg-[#16A34A] text-white font-bold text-sm shadow-md" href="https://wa.me/966552017263" target="_blank">
+        <span class="material-symbols-outlined">chat</span>
+        <span>تواصل فوري عبر واتساب</span>
+      </a>
+    </div>
+  </div>
+</header>
+  
+
+<main class="w-full pt-28 bg-white overflow-hidden">
+
+  <!-- ==================== 1. GRAND ANIMATED PANORAMIC BANNER HERO ==================== -->
+  <section class="relative w-full min-h-[600px] lg:min-h-[680px] flex items-center justify-center overflow-hidden border-b border-sky-100 bg-slate-900">
+    <!-- Panoramic Banner Image with Slow Ken-Burns Animation Taking Its Space Properly -->
+    <div class="absolute inset-0 w-full h-full overflow-hidden">
+      <img src="assets/images/header-panoramic-luxury.jpg" alt="صيانة الثلاجات والغسالات الأوتوماتيكية في جدة" class="w-full h-full object-cover object-[center_35%] animate-panoramic scale-105 filter brightness-[0.97] contrast-[1.04]">
+      
+      <!-- Translucent Light Gradient Glass Overlay to blend into Light Theme -->
+      <div class="absolute inset-0 bg-gradient-to-r from-white/95 via-white/80 to-white/40 backdrop-blur-[1px]"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-white via-transparent to-white/30"></div>
+    </div>
+
+    <!-- Interactive Glowing Radar Hotspots on the Actual Appliances in the Photo -->
+    <!-- Hotspot 1: Over Refrigerator (Left) -->
+    <div class="absolute top-[42%] left-[16%] hidden lg:flex flex-col items-center group z-20 cursor-pointer animate-float">
+      <div class="relative flex items-center justify-center w-10 h-10 rounded-full bg-[#0284C7] text-white shadow-lg animate-radar-blue">
+        <span class="material-symbols-outlined text-lg">kitchen</span>
+      </div>
+      <div class="mt-2 px-3 py-1.5 rounded-xl bg-white/95 backdrop-blur-md text-[#101B5D] text-xs font-black shadow-xl border border-sky-200 transition-all group-hover:scale-105 whitespace-nowrap">
+        <span>فحص وتبريد الثلاجات الذكية</span>
+      </div>
+    </div>
+
+    <!-- Hotspot 2: Over Washer & Dryer (Center) -->
+    <div class="absolute top-[52%] left-[46%] hidden lg:flex flex-col items-center group z-20 cursor-pointer animate-float-delay">
+      <div class="relative flex items-center justify-center w-10 h-10 rounded-full bg-[#16A34A] text-white shadow-lg animate-radar-green">
+        <span class="material-symbols-outlined text-lg">local_laundry_service</span>
+      </div>
+      <div class="mt-2 px-3 py-1.5 rounded-xl bg-white/95 backdrop-blur-md text-[#101B5D] text-xs font-black shadow-xl border border-green-200 transition-all group-hover:scale-105 whitespace-nowrap">
+        <span>صيانة الغسالات وكروت الإنفيرتر</span>
+      </div>
+    </div>
+
+    <!-- Hotspot 3: Over Jeddah Waterfront Sea View (Right) -->
+    <div class="absolute top-[28%] left-[78%] hidden xl:flex flex-col items-center group z-20 cursor-pointer animate-float">
+      <div class="relative flex items-center justify-center w-9 h-9 rounded-full bg-[#101B5D] text-[#38BDF8] shadow-lg animate-radar-blue">
+        <span class="material-symbols-outlined text-base">location_on</span>
+      </div>
+      <div class="mt-2 px-3 py-1 rounded-full bg-white/90 backdrop-blur-md text-[#101B5D] text-[11px] font-extrabold shadow-lg border border-sky-100 whitespace-nowrap">
+        <span>تغطية فورية لجميع أحياء جدة</span>
+      </div>
+    </div>
+
+    <!-- Grand Hero Content Box inside Translucent Light Glass Card -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-12 relative z-20 w-full flex flex-col lg:flex-row items-center justify-between gap-10">
+      <div class="max-w-2xl w-full glass-card-hero p-6 sm:p-10 rounded-3xl space-y-6 animate-glass-glow reveal-on-scroll is-visible">
+        <!-- Live Badge -->
+        <div class="flex flex-wrap items-center gap-3">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-50 text-emerald-700 text-xs font-extrabold border border-emerald-200 shadow-sm animate-float">
+            <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-ping"></span>
+            <span>المركز المعتمد للنخبة بجدة VIP</span>
+          </div>
+          <div class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-sky-50 text-[#0284C7] text-xs font-bold border border-sky-100">
+            <span class="material-symbols-outlined text-sm">bolt</span>
+            <span>وصول منزلي خلال 30 دقيقة</span>
+          </div>
+        </div>
+
+        <!-- Grand Headline -->
+        <div class="space-y-3">
+          <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black text-[#101B5D] leading-[1.2] tracking-tight">
+            صيانة <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#0284C7] via-[#0369A1] to-[#101B5D]">الغسالات الأوتوماتيكية</span> والثلاجات في جدة
+          </h1>
+          <p class="text-slate-600 text-sm sm:text-base lg:text-lg leading-relaxed font-medium">
+            خدمة منزلية متخصصة ومباشرة دون الحاجة لنقل أجهزتك. فحص هندسي دقيق، صيانة فورية بأحدث أجهزة التشخيص الإلكتروني، وقطع غيار أصلية 100% بكفاءة واحترافية عالية.
+          </p>
+        </div>
+
+        <!-- Quick Value Highlights -->
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5 pt-1 text-xs font-bold text-slate-700">
+          <div class="flex items-center gap-2 p-2.5 rounded-xl bg-sky-50/80 border border-sky-100">
+            <span class="material-symbols-outlined text-base text-[#0284C7]">home_repair_service</span>
+            <span>صيانة منزلية فورية</span>
+          </div>
+          <div class="flex items-center gap-2 p-2.5 rounded-xl bg-sky-50/80 border border-sky-100">
+            <span class="material-symbols-outlined text-base text-[#16A34A]">verified</span>
+            <span>قطع أصلية معتمدة</span>
+          </div>
+          <div class="flex items-center gap-2 p-2.5 rounded-xl bg-sky-50/80 border border-sky-100">
+            <span class="material-symbols-outlined text-base text-[#0284C7]">speed</span>
+            <span>استجابة طارئة 24/7</span>
+          </div>
+        </div>
+
+        <!-- Dual CTA Buttons Dock with Shimmer & Radar Waves -->
+        <div class="flex flex-wrap items-center gap-3 pt-2">
+          <a href="https://wa.me/966552017263?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%AD%D8%AC%D8%B2%20%D9%85%D9%88%D8%B9%D8%AF%20%D8%B5%D9%8A%D8%A7%D9%86%D8%A9%20%D9%81%D9%88%D8%B1%D9%8A%20%D8%A8%D8%AC%D8%AF%D8%A9" target="_blank" class="inline-flex items-center gap-2.5 px-7 py-4 rounded-2xl bg-gradient-to-r from-[#16A34A] to-[#22C55E] text-white font-black text-sm tracking-wide shadow-[0_10px_25px_rgba(22,163,74,0.4)] hover:scale-105 active:scale-95 transition-all btn-shine animate-radar-green">
+            <span class="material-symbols-outlined text-xl">chat</span>
+            <span>احجز فني عبر واتساب فوراً</span>
+          </a>
+          <a href="tel:+966552017263" class="inline-flex items-center gap-2.5 px-6 py-4 rounded-2xl bg-white text-[#101B5D] hover:bg-sky-50 font-black text-sm shadow-md hover:scale-105 active:scale-95 transition-all border border-sky-200 card-hover-3d btn-shine">
+            <span class="material-symbols-outlined text-[#0284C7] text-xl">call</span>
+            <span dir="ltr">+966 55 201 7263</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Quick Interactive Diagnostic Floating Widget on the side -->
+      <div class="w-full lg:w-96 glass-card-hero p-6 rounded-3xl border border-white/90 shadow-2xl space-y-4 animate-float reveal-on-scroll is-visible">
+        <div class="flex items-center justify-between border-b border-sky-100 pb-3">
+          <div class="flex items-center gap-2">
+            <span class="material-symbols-outlined text-[#0284C7] text-2xl">troubleshoot</span>
+            <span class="font-black text-base text-[#101B5D]">تشخيص عطل سريع</span>
+          </div>
+          <span class="text-[11px] font-extrabold px-2.5 py-1 rounded-full bg-sky-100 text-[#0284C7]">تفاعلي</span>
+        </div>
+        <p class="text-xs text-slate-600 leading-relaxed">
+          اختر نوع الجهاز وسنقوم بتوجيه أقرب فني متخصص في حيك بجدة:
+        </p>
+        <div class="grid grid-cols-2 gap-2 text-xs font-bold">
+          <a href="washing-machines.html" class="p-3.5 rounded-2xl bg-white hover:bg-sky-50 border border-sky-100 hover:border-sky-300 shadow-sm flex flex-col items-center gap-2 text-center transition-all card-hover-3d">
+            <div class="w-10 h-10 rounded-xl bg-sky-100 text-[#0284C7] flex items-center justify-center">
+              <span class="material-symbols-outlined text-xl">local_laundry_service</span>
+            </div>
+            <span class="text-[#101B5D]">غسالة أوتوماتيك</span>
+            <span class="text-[10px] text-slate-500 font-medium">طرد / دوران / تسريب</span>
+          </a>
+          <a href="refrigerators.html" class="p-3.5 rounded-2xl bg-white hover:bg-sky-50 border border-sky-100 hover:border-sky-300 shadow-sm flex flex-col items-center gap-2 text-center transition-all card-hover-3d">
+            <div class="w-10 h-10 rounded-xl bg-sky-100 text-[#0284C7] flex items-center justify-center">
+              <span class="material-symbols-outlined text-xl">kitchen</span>
+            </div>
+            <span class="text-[#101B5D]">ثلاجة / فريزر</span>
+            <span class="text-[10px] text-slate-500 font-medium">تبريد / فريون / ثلج</span>
+          </a>
+        </div>
+        <a href="contact.html" class="w-full py-2.5 px-4 rounded-xl bg-sky-50 hover:bg-sky-100 text-[#0284C7] font-black text-xs flex items-center justify-center gap-1.5 transition-colors border border-sky-200">
+          <span>افتح مساعد التشخيص الذكي الكامل</span>
+          <span class="material-symbols-outlined text-sm">arrow_back</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 2. TRUST PILLARS BAR (4 ANIMATED CARDS) ==================== -->
+  <section class="w-full bg-white py-10 px-4 sm:px-6 lg:px-12 border-b border-sky-100">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+      <div class="p-5 rounded-2xl bg-[#F0F7FF] border border-sky-100 shadow-sm card-hover-3d flex items-center gap-4 reveal-on-scroll">
+        <div class="w-13 h-13 rounded-2xl bg-white text-[#0284C7] flex items-center justify-center shrink-0 border border-sky-200 shadow-sm">
+          <span class="material-symbols-outlined text-2xl">location_city</span>
+        </div>
+        <div>
+          <h4 class="font-black text-[#101B5D] text-sm">تغطية لكافة أحياء جدة</h4>
+          <p class="text-xs text-slate-500 mt-1">شمال، وسط، وجنوب جدة بسيارات مجهزة</p>
+        </div>
+      </div>
+
+      <div class="p-5 rounded-2xl bg-[#F0F7FF] border border-sky-100 shadow-sm card-hover-3d flex items-center gap-4 reveal-on-scroll">
+        <div class="w-13 h-13 rounded-2xl bg-white text-[#0284C7] flex items-center justify-center shrink-0 border border-sky-200 shadow-sm">
+          <span class="material-symbols-outlined text-2xl">biotech</span>
+        </div>
+        <div>
+          <h4 class="font-black text-[#101B5D] text-sm">تشخيص إلكتروني فوري</h4>
+          <p class="text-xs text-slate-500 mt-1">تحديد دقيق للأعطال بدون تخمين</p>
+        </div>
+      </div>
+
+      <div class="p-5 rounded-2xl bg-[#F0F7FF] border border-sky-100 shadow-sm card-hover-3d flex items-center gap-4 reveal-on-scroll">
+        <div class="w-13 h-13 rounded-2xl bg-white text-[#16A34A] flex items-center justify-center shrink-0 border border-green-200 shadow-sm">
+          <span class="material-symbols-outlined text-2xl">verified</span>
+        </div>
+        <div>
+          <h4 class="font-black text-[#101B5D] text-sm">قطع غيار أصلية 100%</h4>
+          <p class="text-xs text-slate-500 mt-1">مطابقة للمواصفات بوثيقة فحص معتمدة</p>
+        </div>
+      </div>
+
+      <div class="p-5 rounded-2xl bg-[#F0F7FF] border border-sky-100 shadow-sm card-hover-3d flex items-center gap-4 reveal-on-scroll">
+        <div class="w-13 h-13 rounded-2xl bg-white text-[#0284C7] flex items-center justify-center shrink-0 border border-sky-200 shadow-sm">
+          <span class="material-symbols-outlined text-2xl">support_agent</span>
+        </div>
+        <div>
+          <h4 class="font-black text-[#101B5D] text-sm">تواصل مباشر مع الفني</h4>
+          <p class="text-xs text-slate-500 mt-1">رد فوري بدون انتظار أو روبوتات</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 3. LIVE STATS COUNTER BAR ==================== -->
+  <section class="w-full bg-gradient-to-r from-[#101B5D] via-[#0A1038] to-[#101B5D] text-white py-12 px-6 lg:px-12 relative overflow-hidden">
+    <div class="absolute -right-20 -bottom-20 w-60 h-60 bg-sky-500/15 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-center relative z-10">
+      <div class="space-y-1 reveal-on-scroll">
+        <div class="text-3xl sm:text-4xl lg:text-5xl font-black text-[#38BDF8] tracking-tight font-mono">+12,800</div>
+        <div class="text-xs sm:text-sm text-slate-300 font-bold">صيانة منزلية ناجحة بجدة</div>
+      </div>
+      <div class="space-y-1 reveal-on-scroll">
+        <div class="text-3xl sm:text-4xl lg:text-5xl font-black text-emerald-400 tracking-tight font-mono">25+</div>
+        <div class="text-xs sm:text-sm text-slate-300 font-bold">عاماً من الخبرة الهندسية</div>
+      </div>
+      <div class="space-y-1 reveal-on-scroll">
+        <div class="text-3xl sm:text-4xl lg:text-5xl font-black text-[#38BDF8] tracking-tight font-mono">30 min</div>
+        <div class="text-xs sm:text-sm text-slate-300 font-bold">متوسط وقت وصول الفني</div>
+      </div>
+      <div class="space-y-1 reveal-on-scroll">
+        <div class="text-3xl sm:text-4xl lg:text-5xl font-black text-amber-300 tracking-tight font-mono">99.6%</div>
+        <div class="text-xs sm:text-sm text-slate-300 font-bold">نسبة رضا عملاء النخبة</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 4. CONTINUOUS MARQUEE BRAND SHOWCASE ==================== -->
+  <section class="w-full bg-[#F8FAFC] py-8 border-b border-sky-100 overflow-hidden">
+    <div class="max-w-7xl mx-auto px-6 mb-4 flex items-center justify-between">
+      <div class="flex items-center gap-2 text-xs font-black text-[#101B5D] uppercase tracking-wider">
+        <span class="w-2.5 h-2.5 rounded-full bg-[#0284C7] animate-ping"></span>
+        <span>الماركات العالمية المعتمدة المتخصصة</span>
+      </div>
+      <span class="text-xs text-slate-500 font-bold">مهندسون معتمدون لكبرى العلامات</span>
+    </div>
+    <div class="relative w-full overflow-hidden">
+      <div class="marquee-track flex items-center gap-8 text-slate-700 font-black text-base">
+        <!-- Set 1 -->
+        <span class="px-5 py-2.5 rounded-xl bg-white border border-sky-100 shadow-sm flex items-center gap-2">LG <span class="text-xs font-normal text-slate-400">Life's Good</span></span>
+        <span class="px-5 py-2.5 rounded-xl bg-white border border-sky-100 shadow-sm flex items-center gap-2">SAMSUNG <span class="text-xs font-normal text-slate-400">Digital Inverter</span></span>
+        <span class="px-5 py-2.5 rounded-xl bg-white border border-sky-100 shadow-sm flex items-center gap-2">WHIRLPOOL <span class="text-xs font-normal text-slate-400">USA</span></span>
+        <span class="px-5 py-2.5 rounded-xl bg-white border border-sky-100 shadow-sm flex items-center gap-2">BOSCH <span class="text-xs font-normal text-slate-400">German Tech</span></span>
+        <span class="px-5 py-2.5 rounded-xl bg-white border border-sky-100 shadow-sm flex items-center gap-2">DAEWOO <span class="text-xs font-normal text-slate-400">Electronics</span></span>
+        <span class="px-5 py-2.5 rounded-xl bg-white border border-sky-100 shadow-sm flex items-center gap-2">ARISTON <span class="text-xs font-normal text-slate-400">Hotpoint</span></span>
+        <span class="px-5 py-2.5 rounded-xl bg-white border border-sky-100 shadow-sm flex items-center gap-2">TOSHIBA <span class="text-xs font-normal text-slate-400">Japan</span></span>
+        <span class="px-5 py-2.5 rounded-xl bg-white border border-sky-100 shadow-sm flex items-center gap-2">HITACHI <span class="text-xs font-normal text-slate-400">Japan</span></span>
+        <span class="px-5 py-2.5 rounded-xl bg-white border border-sky-100 shadow-sm flex items-center gap-2">BEKO <span class="text-xs font-normal text-slate-400">ProSmart</span></span>
+        <span class="px-5 py-2.5 rounded-xl bg-white border border-sky-100 shadow-sm flex items-center gap-2">HAIER <span class="text-xs font-normal text-slate-400">Appliances</span></span>
+        <!-- Duplicated for Infinite Smooth Loop -->
+        <span class="px-5 py-2.5 rounded-xl bg-white border border-sky-100 shadow-sm flex items-center gap-2">LG <span class="text-xs font-normal text-slate-400">Life's Good</span></span>
+        <span class="px-5 py-2.5 rounded-xl bg-white border border-sky-100 shadow-sm flex items-center gap-2">SAMSUNG <span class="text-xs font-normal text-slate-400">Digital Inverter</span></span>
+        <span class="px-5 py-2.5 rounded-xl bg-white border border-sky-100 shadow-sm flex items-center gap-2">WHIRLPOOL <span class="text-xs font-normal text-slate-400">USA</span></span>
+        <span class="px-5 py-2.5 rounded-xl bg-white border border-sky-100 shadow-sm flex items-center gap-2">BOSCH <span class="text-xs font-normal text-slate-400">German Tech</span></span>
+        <span class="px-5 py-2.5 rounded-xl bg-white border border-sky-100 shadow-sm flex items-center gap-2">DAEWOO <span class="text-xs font-normal text-slate-400">Electronics</span></span>
+        <span class="px-5 py-2.5 rounded-xl bg-white border border-sky-100 shadow-sm flex items-center gap-2">ARISTON <span class="text-xs font-normal text-slate-400">Hotpoint</span></span>
+        <span class="px-5 py-2.5 rounded-xl bg-white border border-sky-100 shadow-sm flex items-center gap-2">TOSHIBA <span class="text-xs font-normal text-slate-400">Japan</span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 5. CORE SERVICES (WASHING MACHINES & REFRIGERATORS) ==================== -->
+  <section class="w-full bg-white py-16 px-4 sm:px-6 lg:px-12 border-b border-sky-100">
+    <div class="max-w-7xl mx-auto space-y-12">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-6">
+        <div class="space-y-3">
+          <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-sky-50 text-[#0284C7] text-xs font-black uppercase tracking-wider border border-sky-100">
+            <span class="material-symbols-outlined text-base">engineering</span>
+            <span>الخدمات التخصصية المعتمدة</span>
+          </div>
+          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-black text-[#101B5D] tracking-tight">
+            حلول متكاملة لصيانة الغسالات والثلاجات
+          </h2>
+          <p class="text-slate-600 text-sm sm:text-base max-w-2xl leading-relaxed">
+            فريقنا الهندسي مجهز بأحدث الحواسيب لفحص الكروت الإلكترونية وأجهزة قياس ضغوط التبريد لكشف وحل المشكلة في زيارة واحدة.
+          </p>
+        </div>
+        <a href="tel:+966552017263" class="inline-flex items-center gap-2 text-[#0284C7] font-black hover:text-[#101B5D] text-sm group">
+          <span>طلب معاينة فورية لكافة الأجهزة</span>
+          <span class="material-symbols-outlined transition-transform group-hover:-translate-x-1">arrow_back</span>
+        </a>
+      </div>
+
+      <!-- Two Hero Pillars: Washing Machines vs Refrigerators -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <!-- Service Card 1: Washing Machines -->
+        <div class="rounded-3xl bg-[#F0F7FF] border border-sky-100 overflow-hidden shadow-lg card-hover-3d flex flex-col justify-between group reveal-on-scroll">
+          <div class="p-8 space-y-6">
+            <div class="flex items-center justify-between">
+              <div class="w-14 h-14 rounded-2xl bg-[#0284C7] text-white flex items-center justify-center shadow-md">
+                <span class="material-symbols-outlined text-3xl">local_laundry_service</span>
+              </div>
+              <span class="px-3.5 py-1 rounded-full bg-white text-[#0284C7] text-xs font-black border border-sky-200">
+                أوتوماتيك & فوق أوتوماتيك
+              </span>
+            </div>
+
+            <div class="space-y-2">
+              <h3 class="text-2xl font-black text-[#101B5D]">صيانة الغسالات الأوتوماتيكية</h3>
+              <p class="text-sm text-slate-600 leading-relaxed">
+                معالجة متخصصة لكافة أعطال دورة الغسيل، عدم العصر، تسريب المياه، توقف مضخة الطرد، وإصلاح كروت التحكم الإلكترونية ومحركات Direct Drive.
+              </p>
+            </div>
+
+            <ul class="space-y-2.5 text-xs sm:text-sm font-bold text-slate-700">
+              <li class="flex items-center gap-2.5">
+                <span class="material-symbols-outlined text-base text-[#16A34A]">check_circle</span>
+                <span>إصلاح وتغيير رمان البلي ومساعدات منع الاهتزاز</span>
+              </li>
+              <li class="flex items-center gap-2.5">
+                <span class="material-symbols-outlined text-base text-[#16A34A]">check_circle</span>
+                <span>فحص كروت التشغيل وبرمجة أكواد الخطأ (Error Codes)</span>
+              </li>
+              <li class="flex items-center gap-2.5">
+                <span class="material-symbols-outlined text-base text-[#16A34A]">check_circle</span>
+                <span>استبدال طلمبات الطرد والمحابس وصمامات السحب الأصلية</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="p-6 bg-white border-t border-sky-100 flex items-center justify-between gap-4">
+            <a href="washing-machines.html" class="inline-flex items-center gap-2 text-sm font-black text-[#101B5D] hover:text-[#0284C7] transition-colors">
+              <span>تفاصيل صيانة الغسالات</span>
+              <span class="material-symbols-outlined text-base">arrow_back</span>
+            </a>
+            <a href="https://wa.me/966552017263?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%B9%D9%86%D8%AF%D9%8A%20%D8%B9%D8%B7%D9%84%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%BA%D8%B3%D8%A7%D9%84%D8%A9%20%D8%A7%D9%84%D8%A3%D9%88%D8%AA%D9%88%D9%85%D8%A7%D8%AA%D9%8A%D9%83%20%D9%88%D8%A3%D8%AD%D8%AA%D8%A7%D8%AC%20%D9%81%D9%86%D9%8A%20%D8%A8%D8%AC%D8%AF%D8%A9" target="_blank" class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-[#16A34A] to-[#22C55E] text-white font-bold text-xs flex items-center gap-2 shadow-md hover:scale-105 active:scale-95 transition-all">
+              <span class="material-symbols-outlined text-base">chat</span>
+              <span>حجز فني غسالات</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Service Card 2: Refrigerators & Freezers -->
+        <div class="rounded-3xl bg-[#F0F7FF] border border-sky-100 overflow-hidden shadow-lg card-hover-3d flex flex-col justify-between group reveal-on-scroll">
+          <div class="p-8 space-y-6">
+            <div class="flex items-center justify-between">
+              <div class="w-14 h-14 rounded-2xl bg-[#101B5D] text-white flex items-center justify-center shadow-md">
+                <span class="material-symbols-outlined text-3xl">kitchen</span>
+              </div>
+              <span class="px-3.5 py-1 rounded-full bg-white text-[#101B5D] text-xs font-black border border-sky-200">
+                نوفروست & دبل دور & إنفيرتر
+              </span>
+            </div>
+
+            <div class="space-y-2">
+              <h3 class="text-2xl font-black text-[#101B5D]">صيانة الثلاجات والفريزرات</h3>
+              <p class="text-sm text-slate-600 leading-relaxed">
+                معالجة ضعف التبريد، تراكم الثلج، أصوات الضاغط المرتفعة، تنظيف دورة الفريون، شحن الغاز الأصلي (R600a / R134a) وفق ضغوط المصنع.
+              </p>
+            </div>
+
+            <ul class="space-y-2.5 text-xs sm:text-sm font-bold text-slate-700">
+              <li class="flex items-center gap-2.5">
+                <span class="material-symbols-outlined text-base text-[#16A34A]">check_circle</span>
+                <span>فحص وتغيير محركات الكمبروسر الإنفيرتر والعادي</span>
+              </li>
+              <li class="flex items-center gap-2.5">
+                <span class="material-symbols-outlined text-base text-[#16A34A]">check_circle</span>
+                <span>إصلاح سخانات وهيترات إذابة الثلج وحساسات الديفروست</span>
+              </li>
+              <li class="flex items-center gap-2.5">
+                <span class="material-symbols-outlined text-base text-[#16A34A]">check_circle</span>
+                <span>كشف تسريب النحاس وشحن غاز الفريون الأصلي النقي</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="p-6 bg-white border-t border-sky-100 flex items-center justify-between gap-4">
+            <a href="refrigerators.html" class="inline-flex items-center gap-2 text-sm font-black text-[#101B5D] hover:text-[#0284C7] transition-colors">
+              <span>تفاصيل صيانة الثلاجات</span>
+              <span class="material-symbols-outlined text-base">arrow_back</span>
+            </a>
+            <a href="https://wa.me/966552017263?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%B9%D9%86%D8%AF%D9%8A%20%D8%B9%D8%B7%D9%84%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%AB%D9%84%D8%A7%D8%AC%D8%A9%20%D8%A3%D9%88%20%D8%A7%D9%84%D9%81%D8%B1%D9%8A%D8%B2%D8%B1%20%D9%88%D8%A3%D8%AD%D8%AA%D8%A7%D8%AC%20%D9%81%D9%86%D9%8A%20%D8%A8%D8%AC%D8%AF%D8%A9" target="_blank" class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-[#16A34A] to-[#22C55E] text-white font-bold text-xs flex items-center gap-2 shadow-md hover:scale-105 active:scale-95 transition-all">
+              <span class="material-symbols-outlined text-base">chat</span>
+              <span>حجز فني ثلاجات</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 6. INTERACTIVE SMART DIAGNOSIS WIZARD ==================== -->
+  <section class="w-full bg-[#F0F7FF] py-16 px-4 sm:px-6 lg:px-12 border-b border-sky-100 relative">
+    <div class="max-w-4xl mx-auto space-y-8">
+      <div class="text-center space-y-3">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white text-[#0284C7] text-xs font-black border border-sky-200">
+          <span class="material-symbols-outlined text-base">psychology</span>
+          <span>مساعد التشخيص الذكي الفوري</span>
+        </div>
+        <h2 class="text-2xl sm:text-3xl font-black text-[#101B5D]">
+          شخّص عطل جهازك واحصل على تقرير فني مباشر
+        </h2>
+        <p class="text-slate-600 text-sm max-w-xl mx-auto">
+          حدد الجهاز والعطل وسنقوم فوراً بإرسال التسعيرة التقريبية وحجز موعد الفحص المنزلي عبر واتساب.
+        </p>
+      </div>
+
+      <!-- Diagnostic Interactive Container -->
+      <div class="bg-white rounded-3xl p-6 sm:p-10 border border-sky-100 shadow-xl space-y-6">
+        <!-- Step 1: Device Type -->
+        <div class="space-y-3">
+          <label class="text-sm font-black text-[#101B5D] flex items-center gap-2">
+            <span class="w-6 h-6 rounded-full bg-[#0284C7] text-white flex items-center justify-center text-xs">1</span>
+            <span>اختر نوع الجهاز:</span>
+          </label>
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            <button type="button" onclick="selectDevice(this, 'غسالة أوتوماتيك')" class="device-btn p-3.5 rounded-2xl border-2 border-sky-200 bg-sky-50 text-[#101B5D] font-bold text-xs flex flex-col items-center gap-2 transition-all">
+              <span class="material-symbols-outlined text-2xl text-[#0284C7]">local_laundry_service</span>
+              <span>غسالة أوتوماتيك</span>
+            </button>
+            <button type="button" onclick="selectDevice(this, 'ثلاجة منزلية')" class="device-btn p-3.5 rounded-2xl border-2 border-slate-200 bg-white hover:bg-sky-50 text-slate-700 font-bold text-xs flex flex-col items-center gap-2 transition-all">
+              <span class="material-symbols-outlined text-2xl text-[#0284C7]">kitchen</span>
+              <span>ثلاجة منزلية</span>
+            </button>
+            <button type="button" onclick="selectDevice(this, 'فريزر أفقي / رأسي')" class="device-btn p-3.5 rounded-2xl border-2 border-slate-200 bg-white hover:bg-sky-50 text-slate-700 font-bold text-xs flex flex-col items-center gap-2 transition-all">
+              <span class="material-symbols-outlined text-2xl text-[#0284C7]">ac_unit</span>
+              <span>فريزر أفقي/رأسي</span>
+            </button>
+            <button type="button" onclick="selectDevice(this, 'نشافة ملابس')" class="device-btn p-3.5 rounded-2xl border-2 border-slate-200 bg-white hover:bg-sky-50 text-slate-700 font-bold text-xs flex flex-col items-center gap-2 transition-all">
+              <span class="material-symbols-outlined text-2xl text-[#0284C7]">dry</span>
+              <span>نشافة ملابس</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Step 2: Symptom -->
+        <div class="space-y-3">
+          <label class="text-sm font-black text-[#101B5D] flex items-center gap-2">
+            <span class="w-6 h-6 rounded-full bg-[#0284C7] text-white flex items-center justify-center text-xs">2</span>
+            <span>ما هي المشكلة الأساسية؟</span>
+          </label>
+          <div class="grid grid-cols-2 sm:grid-cols-3 gap-2.5" id="symptomsList">
+            <button type="button" onclick="selectSymptom(this, 'لا تصرف المياه / لا تعصر')" class="symptom-btn p-3 rounded-xl border border-sky-200 bg-sky-50 text-[#101B5D] text-xs font-bold text-right transition-all">
+              💧 لا تصرف المياه / لا تعصر
+            </button>
+            <button type="button" onclick="selectSymptom(this, 'ضعف أو انعدام التبريد')" class="symptom-btn p-3 rounded-xl border border-slate-200 bg-white text-slate-700 text-xs font-bold text-right transition-all">
+              ❄️ ضعف أو انعدام التبريد
+            </button>
+            <button type="button" onclick="selectSymptom(this, 'صوت واهتزاز شديد أثناء التشغيل')" class="symptom-btn p-3 rounded-xl border border-slate-200 bg-white text-slate-700 text-xs font-bold text-right transition-all">
+              🔊 صوت واهتزاز شديد
+            </button>
+            <button type="button" onclick="selectSymptom(this, 'تراكم الثلج وتسريب مياه')" class="symptom-btn p-3 rounded-xl border border-slate-200 bg-white text-slate-700 text-xs font-bold text-right transition-all">
+              🧊 تراكم الثلج / تسريب
+            </button>
+            <button type="button" onclick="selectSymptom(this, 'الجهاز لا يعمل تماماً / عطل كرت')" class="symptom-btn p-3 rounded-xl border border-slate-200 bg-white text-slate-700 text-xs font-bold text-right transition-all">
+              ⚡ لا يشتغل تماماً / عطل كهرباء
+            </button>
+            <button type="button" onclick="selectSymptom(this, 'رمز خطأ على الشاشة الرقمية')" class="symptom-btn p-3 rounded-xl border border-slate-200 bg-white text-slate-700 text-xs font-bold text-right transition-all">
+              📟 يظهر رمز خطأ Error Code
+            </button>
+          </div>
+        </div>
+
+        <!-- Step 3: District in Jeddah -->
+        <div class="space-y-3">
+          <label class="text-sm font-black text-[#101B5D] flex items-center gap-2">
+            <span class="w-6 h-6 rounded-full bg-[#0284C7] text-white flex items-center justify-center text-xs">3</span>
+            <span>حدد حيك السكني في جدة:</span>
+          </label>
+          <select id="districtSelect" class="w-full p-3.5 rounded-xl border border-sky-200 bg-sky-50/50 text-[#101B5D] font-bold text-sm focus:outline-none focus:ring-2 focus:ring-[#0284C7]">
+            <option value="الروضة">حي الروضة</option>
+            <option value="السلامة">حي السلامة</option>
+            <option value="الشاطئ">حي الشاطئ</option>
+            <option value="أبحر الشمالية">حي أبحر الشمالية</option>
+            <option value="أبحر الجنوبية">حي أبحر الجنوبية</option>
+            <option value="الصفا">حي الصفا</option>
+            <option value="المحمدية">حي المحمدية</option>
+            <option value="الزهراء">حي الزهراء</option>
+            <option value="النعيم">حي النعيم</option>
+            <option value="السامر">حي السامر</option>
+            <option value="الحمدانية">حي الحمدانية</option>
+            <option value="حي آخر في جدة">حي آخر داخل محافظة جدة</option>
+          </select>
+        </div>
+
+        <!-- Result and WhatsApp Dispatch Button -->
+        <div class="pt-4 border-t border-sky-100 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div class="text-xs text-slate-600">
+            <span class="font-bold text-[#101B5D]">الاستجابة التقديرية:</span> سيصلك الفني خلال 20-35 دقيقة مع حقيبة الفحص الأصلية.
+          </div>
+          <button type="button" onclick="sendDiagnosticToWhatsApp()" class="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-gradient-to-r from-[#16A34A] to-[#22C55E] text-white font-black text-sm flex items-center justify-center gap-2 shadow-lg hover:scale-105 active:scale-95 transition-all btn-shine">
+            <span class="material-symbols-outlined text-lg">send</span>
+            <span>إرسال التشخيص وحجز الموعد عبر واتساب</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 7. WHY CHOOSE JEDDAH MAINTENANCE (USPs) ==================== -->
+  <section class="w-full bg-white py-16 px-4 sm:px-6 lg:px-12 border-b border-sky-100">
+    <div class="max-w-7xl mx-auto space-y-12">
+      <div class="text-center space-y-3">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-50 text-[#0284C7] text-xs font-black border border-sky-200">
+          <span class="material-symbols-outlined text-base">star</span>
+          <span>معايير النخبة في جدة</span>
+        </div>
+        <h2 class="text-2xl sm:text-3xl lg:text-4xl font-black text-[#101B5D]">
+          لماذا يختارنا عملاء جدة لخدمة أجهزتهم؟
+        </h2>
+        <p class="text-slate-600 text-sm max-w-xl mx-auto">
+          نلتزم بأعلى معايير الدقة والشفافية التقنية وراحة البال لكل أسرة في جدة.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="p-8 rounded-3xl bg-[#F0F7FF] border border-sky-100 shadow-sm card-hover-3d space-y-4 reveal-on-scroll">
+          <div class="w-14 h-14 rounded-2xl bg-white text-[#0284C7] flex items-center justify-center shadow-sm border border-sky-200">
+            <span class="material-symbols-outlined text-3xl">home</span>
+          </div>
+          <h3 class="text-xl font-black text-[#101B5D]">صيانة منزلية 100% فورية</h3>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            لا داعي للقلق بشأن نقل الغسالة أو الثلاجة وتكاليف الرافعات والسيارات. 95% من أعمال الصيانة تتم داخل منزلك وأمام عينيك في نفس الزيارة.
+          </p>
+        </div>
+
+        <div class="p-8 rounded-3xl bg-[#F0F7FF] border border-sky-100 shadow-sm card-hover-3d space-y-4 reveal-on-scroll">
+          <div class="w-14 h-14 rounded-2xl bg-white text-[#16A34A] flex items-center justify-center shadow-sm border border-green-200">
+            <span class="material-symbols-outlined text-3xl">verified_user</span>
+          </div>
+          <h3 class="text-xl font-black text-[#101B5D]">قطع غيار أصلية موثقة</h3>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            نعتمد حصرياً على قطع الغيار المعتمدة من وكالات التصنيع العالمية مرفقة بتقرير فني كامل يثبت كفاءتها وملاءمتها التامة لجهازك.
+          </p>
+        </div>
+
+        <div class="p-8 rounded-3xl bg-[#F0F7FF] border border-sky-100 shadow-sm card-hover-3d space-y-4 reveal-on-scroll">
+          <div class="w-14 h-14 rounded-2xl bg-white text-[#0284C7] flex items-center justify-center shadow-sm border border-sky-200">
+            <span class="material-symbols-outlined text-3xl">pace</span>
+          </div>
+          <h3 class="text-xl font-black text-[#101B5D]">سرعة الاستجابة والطوارئ</h3>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            ندرك أن تعطل الثلاجة يهدد الأغذية، وأن تعطل الغسالة يربك يومك. أسطولنا الميداني في جدة مستعد للتحرك خلال دقائق من حجزك.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 8. CLIENT REVIEWS & TESTIMONIALS ==================== -->
+  <section class="w-full bg-[#F8FAFC] py-16 px-4 sm:px-6 lg:px-12 border-b border-sky-100">
+    <div class="max-w-7xl mx-auto space-y-12">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-6">
+        <div class="space-y-3">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white text-[#0284C7] text-xs font-black border border-sky-200">
+            <span class="material-symbols-outlined text-base">reviews</span>
+            <span>تجارب حقيقية</span>
+          </div>
+          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-black text-[#101B5D]">
+            ماذا يقول عملاؤنا في أحياء جدة؟
+          </h2>
+        </div>
+        <div class="flex items-center gap-1 text-amber-400">
+          <span class="material-symbols-outlined text-2xl animate-twinkle">star</span>
+          <span class="material-symbols-outlined text-2xl animate-twinkle">star</span>
+          <span class="material-symbols-outlined text-2xl animate-twinkle">star</span>
+          <span class="material-symbols-outlined text-2xl animate-twinkle">star</span>
+          <span class="material-symbols-outlined text-2xl animate-twinkle">star</span>
+          <span class="text-xs font-black text-slate-700 mr-2">تقييم 4.9/5 من أكثر من 1,200 عميل</span>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="p-6 rounded-3xl bg-white border border-sky-100 shadow-md card-hover-3d space-y-4 reveal-on-scroll">
+          <div class="flex items-center justify-between">
+            <div class="flex text-amber-400 text-sm">
+              ★★★★★
+            </div>
+            <span class="text-[11px] text-slate-400 font-bold">حي الروضة</span>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+            "ما شاء الله تبارك الله، الغسالة كانت تصدر صوت خبط شديد عند العصر، تواصلت معهم وحضر الفني المهندس في نفس اليوم وغير رمان البلي الأصلي في البيت باحتراف ونظافة تامة."
+          </p>
+          <div class="flex items-center gap-3 pt-2 border-t border-slate-100">
+            <div class="w-9 h-9 rounded-full bg-sky-100 text-[#0284C7] font-black flex items-center justify-center text-xs">أ.م</div>
+            <div>
+              <h5 class="text-xs font-black text-[#101B5D]">أحمد المطيري</h5>
+              <p class="text-[10px] text-slate-400">صيانة غسالة LG أمامية</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-6 rounded-3xl bg-white border border-sky-100 shadow-md card-hover-3d space-y-4 reveal-on-scroll">
+          <div class="flex items-center justify-between">
+            <div class="flex text-amber-400 text-sm">
+              ★★★★★
+            </div>
+            <span class="text-[11px] text-slate-400 font-bold">حي الشاطئ</span>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+            "الثلاجة توقفت عن التبريد فجأة والأكل بدأ يذوب، اتصلت برقمهم المباشر وخلال 25 دقيقة كان الفني عندي. شحن فريون أصلي مع كشف تسريب متقن ورجعت تثلج أحسن من الأول."
+          </p>
+          <div class="flex items-center gap-3 pt-2 border-t border-slate-100">
+            <div class="w-9 h-9 rounded-full bg-green-100 text-[#16A34A] font-black flex items-center justify-center text-xs">س.غ</div>
+            <div>
+              <h5 class="text-xs font-black text-[#101B5D]">سارة الغامدي</h5>
+              <p class="text-[10px] text-slate-400">صيانة ثلاجة سامسونج إنفيرتر</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-6 rounded-3xl bg-white border border-sky-100 shadow-md card-hover-3d space-y-4 reveal-on-scroll">
+          <div class="flex items-center justify-between">
+            <div class="flex text-amber-400 text-sm">
+              ★★★★★
+            </div>
+            <span class="text-[11px] text-slate-400 font-bold">حي أبحر</span>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+            "المصداقية والأمانة عنوانهم. فحصوا كرت الغسالة وحددوا العطل بدقة دون أي تكاليف زائدة، وتم الإصلاح بالمنزل واستلمت تقرير فحص تفصيلي. أنصح بالتعامل معهم بشدة."
+          </p>
+          <div class="flex items-center gap-3 pt-2 border-t border-slate-100">
+            <div class="w-9 h-9 rounded-full bg-sky-100 text-[#0284C7] font-black flex items-center justify-center text-xs">خ.ج</div>
+            <div>
+              <h5 class="text-xs font-black text-[#101B5D]">خالد الجهني</h5>
+              <p class="text-[10px] text-slate-400">صيانة غسالة دايو أوتوماتيك</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 9. INTERACTIVE FAQ ACCORDION ==================== -->
+  <section id="faq" class="w-full bg-white py-16 px-4 sm:px-6 lg:px-12 border-b border-sky-100">
+    <div class="max-w-4xl mx-auto space-y-10">
+      <div class="text-center space-y-3">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-50 text-[#0284C7] text-xs font-black border border-sky-200">
+          <span class="material-symbols-outlined text-base">help</span>
+          <span>الأسئلة الشائعة</span>
+        </div>
+        <h2 class="text-2xl sm:text-3xl font-black text-[#101B5D]">
+          إجابات واضحة ومباشرة عن خدماتنا
+        </h2>
+      </div>
+
+      <div class="space-y-3">
+        <!-- FAQ 1 -->
+        <div class="rounded-2xl border border-sky-100 bg-[#F0F7FF] overflow-hidden transition-all duration-300">
+          <button type="button" onclick="toggleFaq(this)" class="w-full p-5 text-right flex items-center justify-between gap-4 font-black text-[#101B5D] text-sm sm:text-base hover:text-[#0284C7]">
+            <span>هل تتم الصيانة في منزلي أم يلزم نقل الغسالة أو الثلاجة؟</span>
+            <span class="material-symbols-outlined text-xl transition-transform duration-300 faq-icon">expand_more</span>
+          </button>
+          <div class="faq-content hidden px-5 pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-sky-100/60 pt-3">
+            تتم كافة أعمال الصيانة داخل منزلك مباشرة بنسبة تفوق 95%؛ حيث تم تجهيز سياراتنا الميدانية بكافة المعدات والأدوات وقطع الغيار المعتمدة اللازمة لإنجاز الفحص والإصلاح أمامكم دون عناء نقل الأجهزة.
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="rounded-2xl border border-sky-100 bg-[#F0F7FF] overflow-hidden transition-all duration-300">
+          <button type="button" onclick="toggleFaq(this)" class="w-full p-5 text-right flex items-center justify-between gap-4 font-black text-[#101B5D] text-sm sm:text-base hover:text-[#0284C7]">
+            <span>ما هي سرعة استجابة الفني ووصوله في جدة؟</span>
+            <span class="material-symbols-outlined text-xl transition-transform duration-300 faq-icon">expand_more</span>
+          </button>
+          <div class="faq-content hidden px-5 pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-sky-100/60 pt-3">
+            يصل الفني في متوسط 20 إلى 40 دقيقة حسب حيكم السكني؛ حيث تتوزع فرقنا الميدانية في مختلف مناطق جدة (الروضة، الشاطئ، السلامة، أبحر، الصفا، المحمدية وغيرها) لتأمين سرعة الوصول فور طلبكم.
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="rounded-2xl border border-sky-100 bg-[#F0F7FF] overflow-hidden transition-all duration-300">
+          <button type="button" onclick="toggleFaq(this)" class="w-full p-5 text-right flex items-center justify-between gap-4 font-black text-[#101B5D] text-sm sm:text-base hover:text-[#0284C7]">
+            <span>هل قطع الغيار المستخدمة أصلية ومعتمدة؟</span>
+            <span class="material-symbols-outlined text-xl transition-transform duration-300 faq-icon">expand_more</span>
+          </button>
+          <div class="faq-content hidden px-5 pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-sky-100/60 pt-3">
+            نعم، نوفر حصرياً قطع الغيار الأصلية المعتمدة والمطابقة لمواصفات المصنع لكل ماركة (سامسونج، إل جي، ويرلبول، دايو، بوش وغيرها) ويحصل العميل على تقرير فني موثق بنتيجة الفحص.
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="rounded-2xl border border-sky-100 bg-[#F0F7FF] overflow-hidden transition-all duration-300">
+          <button type="button" onclick="toggleFaq(this)" class="w-full p-5 text-right flex items-center justify-between gap-4 font-black text-[#101B5D] text-sm sm:text-base hover:text-[#0284C7]">
+            <span>كيف يمكنني حجز موعد كشف منزلي فوري؟</span>
+            <span class="material-symbols-outlined text-xl transition-transform duration-300 faq-icon">expand_more</span>
+          </button>
+          <div class="faq-content hidden px-5 pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-sky-100/60 pt-3">
+            يمكنكم الحجز بكل سهولة وبنقرة واحدة عبر زر الواتساب المباشر أو الاتصال على الرقم <a href="tel:+966552017263" class="text-[#0284C7] font-bold dir-ltr">+966 55 201 7263</a> للتنسيق مع الفني وتحديد الموعد الأنسب لكم.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 10. FAST BOOKING FORM SECTION ==================== -->
+  <section class="w-full bg-[#F0F7FF] py-16 px-4 sm:px-6 lg:px-12 border-b border-sky-100">
+    <div class="max-w-4xl mx-auto bg-white rounded-3xl p-8 sm:p-12 border border-sky-100 shadow-xl space-y-8 reveal-on-scroll">
+      <div class="text-center space-y-2">
+        <h3 class="text-2xl sm:text-3xl font-black text-[#101B5D]">
+          احجز موعد كشف منزلي فوري
+        </h3>
+        <p class="text-xs sm:text-sm text-slate-500">
+          املأ بياناتك وسيتم توجيه رسالة مجهزة تلقائياً لخدمة العملاء للتأكيد الفوري
+        </p>
+      </div>
+
+      <form id="homeBookingForm" onsubmit="handleFormSubmit(event)" class="space-y-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div class="space-y-1.5">
+            <label class="text-xs font-bold text-slate-700">الاسم الكريم:</label>
+            <input type="text" id="custName" required placeholder="أدخل اسمك" class="w-full p-3.5 rounded-xl border border-sky-200 bg-sky-50/40 text-[#101B5D] text-sm focus:outline-none focus:ring-2 focus:ring-[#0284C7] transition-all">
+          </div>
+          <div class="space-y-1.5">
+            <label class="text-xs font-bold text-slate-700">رقم الجوال:</label>
+            <input type="tel" id="custPhone" required placeholder="05xxxxxxxx" dir="ltr" class="w-full p-3.5 rounded-xl border border-sky-200 bg-sky-50/40 text-[#101B5D] text-sm text-right focus:outline-none focus:ring-2 focus:ring-[#0284C7] transition-all">
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div class="space-y-1.5">
+            <label class="text-xs font-bold text-slate-700">نوع الجهاز المطلوب صيانته:</label>
+            <select id="custDevice" class="w-full p-3.5 rounded-xl border border-sky-200 bg-sky-50/40 text-[#101B5D] text-sm font-bold focus:outline-none focus:ring-2 focus:ring-[#0284C7]">
+              <option value="غسالة أوتوماتيكية">غسالة أوتوماتيكية</option>
+              <option value="ثلاجة منزلية">ثلاجة منزلية</option>
+              <option value="ديب فريزر">ديب فريزر</option>
+              <option value="نشافة ملابس">نشافة ملابس</option>
+              <option value="أجهزة متعددة">أكثر من جهاز</option>
+            </select>
+          </div>
+          <div class="space-y-1.5">
+            <label class="text-xs font-bold text-slate-700">الحي في جدة:</label>
+            <input type="text" id="custDistrict" required placeholder="مثال: الروضة، الصفا، الشاطئ..." class="w-full p-3.5 rounded-xl border border-sky-200 bg-sky-50/40 text-[#101B5D] text-sm focus:outline-none focus:ring-2 focus:ring-[#0284C7] transition-all">
+          </div>
+        </div>
+
+        <div class="space-y-1.5">
+          <label class="text-xs font-bold text-slate-700">وصف مختصر للعطل (اختياري):</label>
+          <textarea id="custNotes" rows="3" placeholder="مثال: الغسالة لا تعصر، أو الثلاجة لا تبرد من الأسفل..." class="w-full p-3.5 rounded-xl border border-sky-200 bg-sky-50/40 text-[#101B5D] text-sm focus:outline-none focus:ring-2 focus:ring-[#0284C7] transition-all"></textarea>
+        </div>
+
+        <button type="submit" class="w-full py-4 rounded-xl bg-gradient-to-r from-[#16A34A] to-[#22C55E] text-white font-black text-base flex items-center justify-center gap-2 shadow-lg hover:scale-[1.01] active:scale-95 transition-all btn-shine">
+          <span class="material-symbols-outlined">send</span>
+          <span>إرسال الحجز الفوري عبر واتساب</span>
+        </button>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<script>
+  let selectedDevice = 'غسالة أوتوماتيك';
+  let selectedSymptom = 'لا تصرف المياه / لا تعصر';
+
+  function selectDevice(btn, device) {
+    document.querySelectorAll('.device-btn').forEach(b => {
+      b.className = 'device-btn p-3.5 rounded-2xl border-2 border-slate-200 bg-white hover:bg-sky-50 text-slate-700 font-bold text-xs flex flex-col items-center gap-2 transition-all';
+    });
+    btn.className = 'device-btn p-3.5 rounded-2xl border-2 border-sky-200 bg-sky-50 text-[#101B5D] font-bold text-xs flex flex-col items-center gap-2 transition-all';
+    selectedDevice = device;
+  }
+
+  function selectSymptom(btn, symptom) {
+    document.querySelectorAll('.symptom-btn').forEach(b => {
+      b.className = 'symptom-btn p-3 rounded-xl border border-slate-200 bg-white text-slate-700 text-xs font-bold text-right transition-all';
+    });
+    btn.className = 'symptom-btn p-3 rounded-xl border border-sky-200 bg-sky-50 text-[#101B5D] text-xs font-bold text-right transition-all';
+    selectedSymptom = symptom;
+  }
+
+  function sendDiagnosticToWhatsApp() {
+    const district = document.getElementById('districtSelect').value;
+    const msg = encodeURIComponent(`السلام عليكم، أود حجز فني صيانة في جدة:\n- الجهاز: ${selectedDevice}\n- العطل: ${selectedSymptom}\n- الحي: ${district}\nأرجو إفادتي بموعد الوصول التقريبي.`);
+    window.open(`https://wa.me/966552017263?text=${msg}`, '_blank');
+  }
+
+  function handleFormSubmit(e) {
+    e.preventDefault();
+    const name = document.getElementById('custName').value;
+    const phone = document.getElementById('custPhone').value;
+    const device = document.getElementById('custDevice').value;
+    const district = document.getElementById('custDistrict').value;
+    const notes = document.getElementById('custNotes').value;
+
+    const text = encodeURIComponent(`طلب صيانة منزلية فورية:\n- الاسم: ${name}\n- الجوال: ${phone}\n- الجهاز: ${device}\n- الحي بجدة: ${district}\n- ملاحظات: ${notes || 'لا يوجد'}`);
+    window.open(`https://wa.me/966552017263?text=${text}`, '_blank');
+  }
+
+  function toggleFaq(btn) {
+    const content = btn.nextElementSibling;
+    const icon = btn.querySelector('.faq-icon');
+    if (content.classList.contains('hidden')) {
+      content.classList.remove('hidden');
+      icon.style.transform = 'rotate(180deg)';
+    } else {
+      content.classList.add('hidden');
+      icon.style.transform = 'rotate(0deg)';
+    }
+  }
+</script>
+
+
+<!-- ================= LUXURY FOOTER ================= -->
+<footer class="w-full bg-[#0B133E] text-slate-300 pt-16 pb-12 border-t border-sky-900 shadow-[0_-4px_30px_rgba(16,27,93,0.15)] relative overflow-hidden">
+  <div class="absolute -top-32 -right-32 w-80 h-80 bg-sky-500/10 rounded-full blur-3xl pointer-events-none"></div>
+  <div class="absolute -bottom-32 -left-32 w-80 h-80 bg-blue-600/10 rounded-full blur-3xl pointer-events-none"></div>
+
+  <div class="max-w-7xl mx-auto px-6 lg:px-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 relative z-10">
+    <div class="space-y-4">
+      <div class="flex items-center gap-3">
+        <div class="w-12 h-12 rounded-2xl bg-white p-1.5 flex items-center justify-center shadow-lg overflow-hidden shrink-0">
+          <img src="assets/images/logo.jpg" alt="صيانة جدة" class="w-full h-full object-contain">
+        </div>
+        <div class="flex flex-col">
+          <span class="text-xl text-white font-black tracking-tight">صيانة جدة</span>
+          <span class="text-xs text-[#38BDF8] font-bold">المركز المعتمد للنخبة</span>
+        </div>
+      </div>
+      <p class="text-sm leading-relaxed text-slate-300">
+        المركز المعتمد للنخبة في صيانة الأجهزة المنزلية بجدة. صيانة فورية وفحص فني شامل لقطع الغيار الأصلية بكفاءة مهندسين معتمدين على مدار الساعة في جميع الأحياء.
+      </p>
+      <div class="flex items-center gap-2 text-slate-300 text-xs pt-1">
+        <span class="material-symbols-outlined text-[#38BDF8] text-base">location_on</span>
+        <span>جدة، المملكة العربية السعودية (تغطية منزلية شاملة)</span>
+      </div>
+    </div>
+    
+    <div class="space-y-3">
+      <h4 class="text-white text-base font-bold flex items-center gap-2">
+        <span class="w-2.5 h-2.5 rounded-full bg-[#38BDF8] animate-pulse"></span>
+        <span>خدمات الصيانة التخصصية</span>
+      </h4>
+      <ul class="space-y-2.5 text-sm text-slate-300">
+        <li class="flex items-center gap-2 hover:text-white transition-colors">
+          <span class="material-symbols-outlined text-xs text-[#38BDF8]">chevron_left</span>
+          <a href="washing-machines.html">صيانة الغسالات الأوتوماتيكية</a>
+        </li>
+        <li class="flex items-center gap-2 hover:text-white transition-colors">
+          <span class="material-symbols-outlined text-xs text-[#38BDF8]">chevron_left</span>
+          <a href="washing-machines.html">معالجة مشاكل الطرد والعصر والتصريف</a>
+        </li>
+        <li class="flex items-center gap-2 hover:text-white transition-colors">
+          <span class="material-symbols-outlined text-xs text-[#38BDF8]">chevron_left</span>
+          <a href="refrigerators.html">صيانة الثلاجات والفريزرات المنزلية</a>
+        </li>
+        <li class="flex items-center gap-2 hover:text-white transition-colors">
+          <span class="material-symbols-outlined text-xs text-[#38BDF8]">chevron_left</span>
+          <a href="refrigerators.html">شحن فريون أصلي وفحص التسريبات</a>
+        </li>
+        <li class="flex items-center gap-2 hover:text-white transition-colors">
+          <span class="material-symbols-outlined text-xs text-[#38BDF8]">chevron_left</span>
+          <a href="refrigerators.html">إصلاح الكروت الإلكترونية والإنفيرتر</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="space-y-3">
+      <h4 class="text-white text-base font-bold flex items-center gap-2">
+        <span class="w-2.5 h-2.5 rounded-full bg-[#16A34A] animate-pulse"></span>
+        <span>الأحياء المشمولة في جدة</span>
+      </h4>
+      <p class="text-xs text-slate-300 leading-relaxed">
+        سيارات صيانة مجهزة تصل لمنزلك خلال 30 دقيقة في:
+      </p>
+      <div class="flex flex-wrap gap-1.5 text-xs">
+        <span class="px-2.5 py-1 rounded-md bg-white/10 text-slate-200">الروضة</span>
+        <span class="px-2.5 py-1 rounded-md bg-white/10 text-slate-200">السلامة</span>
+        <span class="px-2.5 py-1 rounded-md bg-white/10 text-slate-200">الشاطئ</span>
+        <span class="px-2.5 py-1 rounded-md bg-white/10 text-slate-200">الصفا</span>
+        <span class="px-2.5 py-1 rounded-md bg-white/10 text-slate-200">أبحر الشمالية</span>
+        <span class="px-2.5 py-1 rounded-md bg-white/10 text-slate-200">المحمدية</span>
+        <span class="px-2.5 py-1 rounded-md bg-white/10 text-slate-200">الحمدانية</span>
+        <span class="px-2.5 py-1 rounded-md bg-white/10 text-slate-200">السامر</span>
+        <span class="px-2.5 py-1 rounded-md bg-white/10 text-slate-200">النعيم</span>
+        <span class="px-2.5 py-1 rounded-md bg-white/10 text-slate-200">الفيصلية</span>
+      </div>
+    </div>
+
+    <div class="space-y-4">
+      <h4 class="text-white text-base font-bold flex items-center gap-2">
+        <span class="w-2.5 h-2.5 rounded-full bg-amber-400"></span>
+        <span>طلب صيانة فوري</span>
+      </h4>
+      <p class="text-xs text-slate-300 leading-relaxed">
+        احجز موعد كشف منزلي فوري دون الحاجة للانتظار. فنيونا مجهزون بقطع الغيار المعتمدة.
+      </p>
+      <div class="space-y-2.5">
+        <a href="tel:+966552017263" class="flex items-center gap-3 p-3 rounded-xl bg-white/10 hover:bg-white/20 transition-all border border-white/10 card-hover-3d">
+          <span class="material-symbols-outlined text-[#38BDF8]">phone_in_talk</span>
+          <div class="flex flex-col">
+            <span class="text-[11px] text-slate-300">الرقم المباشر لطوارئ الصيانة</span>
+            <span class="text-sm font-bold text-white font-mono dir-ltr" dir="ltr">+966 55 201 7263</span>
+          </div>
+        </a>
+        <a href="https://wa.me/966552017263" target="_blank" class="flex items-center gap-3 p-3 rounded-xl bg-[#16A34A]/80 hover:bg-[#16A34A] transition-all border border-green-400/30 card-hover-3d">
+          <span class="material-symbols-outlined text-white">chat</span>
+          <div class="flex flex-col">
+            <span class="text-[11px] text-green-100">دردشة فورية عبر واتساب</span>
+            <span class="text-sm font-bold text-white">إرسال تفاصيل العطل بنقرة واحدة</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="max-w-7xl mx-auto px-6 lg:px-12 mt-12 pt-6 border-t border-sky-900/60 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
+    <p>© 2026 صيانة جدة (Siana Jeddah VIP). جميع الحقوق محفوظة - المركز المتخصص في صيانة الغسالات والثلاجات بجدة.</p>
+    <div class="flex items-center gap-4">
+      <a href="index.html" class="hover:text-white transition-colors">الرئيسية</a>
+      <span>•</span>
+      <a href="refrigerators.html" class="hover:text-white transition-colors">الثلاجات</a>
+      <span>•</span>
+      <a href="washing-machines.html" class="hover:text-white transition-colors">الغسالات</a>
+      <span>•</span>
+      <a href="contact.html" class="hover:text-white transition-colors">اتصل بنا</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ================= FLOATING ACTION RADAR DOCK (BOTTOM-LEFT) ================= -->
+<div class="fixed bottom-6 left-6 z-50 flex flex-col items-center gap-3">
+  <!-- Scroll to Top Button with Smooth Bounce -->
+  <button id="scrollTopBtn" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="w-10 h-10 rounded-full bg-white/90 backdrop-blur-md shadow-lg border border-sky-200 text-[#101B5D] hover:bg-sky-50 flex items-center justify-center transition-all opacity-0 pointer-events-none duration-300 card-hover-3d" title="العودة للأعلى">
+    <span class="material-symbols-outlined text-xl">arrow_upward</span>
+  </button>
+
+  <!-- Floating Call Action -->
+  <a href="tel:+966552017263" class="w-13 h-13 p-3 rounded-full bg-[#101B5D] text-white shadow-xl hover:scale-110 active:scale-95 transition-all flex items-center justify-center border-2 border-white animate-radar-blue" title="اتصل بالفني المباشر">
+    <span class="material-symbols-outlined text-2xl text-[#38BDF8]">call</span>
+  </a>
+
+  <!-- Floating WhatsApp Action -->
+  <a href="https://wa.me/966552017263?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%B7%D9%84%D8%A8%20%D8%AE%D8%AF%D9%85%D8%A9%20%D8%B5%D9%8A%D8%A7%D9%86%D8%A9%20%D9%81%D9%88%D8%B1%D9%8A%D8%A9%20%D8%A8%D8%AC%D8%AF%D8%A9" target="_blank" class="w-14 h-14 p-3.5 rounded-full bg-gradient-to-r from-[#16A34A] to-[#22C55E] text-white shadow-2xl hover:scale-110 active:scale-95 transition-all flex items-center justify-center border-2 border-white animate-radar-green" title="حجز فوري عبر واتساب">
+    <span class="material-symbols-outlined text-2xl">chat</span>
+  </a>
+</div>
+
+<!-- ================= GLOBAL JAVASCRIPT LOGIC ================= -->
+<script>
+  function toggleMobileMenu() {
+    const drawer = document.getElementById('mobileDrawer');
+    const icon = document.getElementById('menuIcon');
+    if (drawer.classList.contains('hidden')) {
+      drawer.classList.remove('hidden');
+      icon.textContent = 'close';
+    } else {
+      drawer.classList.add('hidden');
+      icon.textContent = 'menu';
+    }
+  }
+
+  // Scroll to Top visibility
+  window.addEventListener('scroll', () => {
+    const btn = document.getElementById('scrollTopBtn');
+    if (window.scrollY > 400) {
+      btn.classList.remove('opacity-0', 'pointer-events-none');
+      btn.classList.add('opacity-100');
+    } else {
+      btn.classList.add('opacity-0', 'pointer-events-none');
+      btn.classList.remove('opacity-100');
+    }
+  });
+
+  // Intersection Observer for Smooth Scroll Reveal Animation
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.reveal-on-scroll').forEach(el => observer.observe(el));
+  });
+</script>
+</body>
+</html>
+
